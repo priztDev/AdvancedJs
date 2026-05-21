@@ -1,4 +1,5 @@
-export const interPlanetryDestinationsArr = [
+// export const interPlanetryDestinationsArr 
+const interPlanetryDestinationsArr = [
     {
         destination: 'Nova Prime',
         distanceKM: 5000000000,
@@ -21,3 +22,29 @@ export const interPlanetryDestinationsArr = [
         description: 'Explore the methane lakes and the potential for extraterrestrial life on Titan.'
     }
 ]
+// export const shortSpaceTripsArr
+const shortSpaceTripsArr = [
+    {
+        destination: 'Moon pass',
+        distanceKM: 5000000,
+        travelTimeDays: 3,
+        priceUSD: 10000,
+        description: 'Take a quick trip to the Moon and witness Earthrise from space.'
+    },
+    {
+        destination: 'Orbit the Earth',
+        distanceKM: 84400,
+        travelTimeDays: 1,
+        priceUSD: 5000,
+        description: 'Eperience weightlessness and breathetaking views of Earth by orbiting moon home planet.'   
+    },
+    {
+        destination: 'Asteroid flypast',
+        distanceKM: 60000,
+        travelTimeDays: 2,
+        priceUSD: 20000,
+        description: 'Explore the methane lakes and the potential for extraterrestrial life on Titan.'
+    }
+]
+
+export {interPlanetryDestinationsArr, shortSpaceTripsArr }

@@ -1,5 +1,5 @@
-import {interPlanetryDestinationsArr} from './data.js'
+import {interPlanetryDestinationsArr as destinations, shortSpaceTripsArr as spacex} from './data.js'
 
-console.log( interPlanetryDestinationsArr )
+console.log( spacex )
 
 
