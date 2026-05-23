@@ -1,21 +1,27 @@
-function getStockData(){
+export function getStockData() {
     return {
-        name: 'QtechAI',
-        sym: 'QTA',
-        price: price(),
-        time: date()
+        name: 'Name: QtechAI',
+        sym: 'Symbol: QTA',
+        price: `Price: ${price()}`,
+        time: `Time: ${date()}`
     }
 }
 
-function date () {
+function date() {
     const timeNow = new Date()
-    const timeStamp = timeNow.toString().slice(0, 8)
+    // const timeStamp = timeNow.toString().slice(0, 8)
+    return timeNow.toLocaleTimeString().slice(0, 8)
+    // return timeNow.toString().slice(0, 8)
 }
 
-function price(){
-    const ranNum = 
+function price() {
+    // let ranNumber
+    // for (let i = 0; i<3; i++){
+    //     ranNumber = Number(Math.random(i).toFixed(2)) 
+    // }
+    // return ranNumber
+    return Number(Math.random()*3).toFixed(2) 
+    // return ranNumber 
 }
+console.log(getStockData())
 
-
-
-export default getStockData()
