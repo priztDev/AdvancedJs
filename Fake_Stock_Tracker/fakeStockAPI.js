@@ -23,5 +23,5 @@ function price() {
     return Number(Math.random()*3).toFixed(2) 
     // return ranNumber 
 }
-console.log(getStockData())
+// console.log(getStockData())
 
