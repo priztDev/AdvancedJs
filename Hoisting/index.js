@@ -14,5 +14,5 @@ function getNews(){
 
  
 console.log(trafficInfo) //error
-
+var count = 7;
 let trafficInfo = 'All roads are busy right now'
