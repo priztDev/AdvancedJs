@@ -1,0 +1,11 @@
+{
+    "name": "Joe Shmoe",
+    "age" : 24,
+    "gender" : "male",
+    "hobbies" : [
+        "skiing",
+        "surfing",
+        "piccolo"
+    ]
+
+}
